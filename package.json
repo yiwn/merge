@@ -1,0 +1,40 @@
+{
+  "name": "yiwn-merge",
+  "description": "Copy enumerable properties of source to target object.",
+  "version": "0.0.1",
+  "author": "Mushex Antaranian",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/yiwn/merge.git"
+  },
+  "scripts": {
+    "prepublish": "make build",
+    "test": "make test"
+  },
+  "devDependencies": {
+    "component": "^1.0.0-rc5",
+    "mocha": "^1.20.1",
+    "chai": "^1.9.1",
+    "jshint": "^2.5.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "dependencies": {
+    "component-type": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yiwn/merge/issues"
+  },
+  "homepage": "https://github.com/yiwn/merge",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "merge",
+    "yiwn"
+  ],
+  "license": "MIT"
+}

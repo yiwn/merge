@@ -1,0 +1,22 @@
+{
+  "name": "merge",
+  "repo": "yiwn/merge",
+  "description": "Copy enumerable properties of source to target object.",
+  "version": "0.0.1",
+  "keywords": [
+    "yiwn",
+    "merge",
+    "pick",
+    "omit"
+  ],
+  "dependencies": {
+    "component/type": "^1.0.0"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/merge.js"
+  ]
+}
