@@ -19,8 +19,7 @@
     "component": "^1.0.0-rc5",
     "mocha": "^1.20.1",
     "chai": "^1.9.1",
-    "jshint": "^2.5.1",
-    "jshint-stylish": "^0.2.0"
+    "jshint": "^2.5.1"
   },
   "dependencies": {
     "component-type": "^1.0.0"

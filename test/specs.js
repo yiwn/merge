@@ -1,6 +1,6 @@
 var expect = require('chai').expect;
 
-var merge = require('../lib/merge.js');
+var merge = require('../index.js');
 
 describe('Merge', function(){
     var a, b;
@@ -51,6 +51,14 @@ describe('Merge', function(){
                 y: 'String',
                 z: { f: 1 }
             });
+    });
 
+    it('should copy objects by ref', function(){
+        merge(a, b);
+
+        b.z.f = 10;
+
+        expect(a.z.f)
+            .to.equal(10);
     });
 });
